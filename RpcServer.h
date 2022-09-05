@@ -1,5 +1,4 @@
 #include "esp_http_server.h"
-#include <ArduinoJson.h>
 
 /**
  * @brief Wraps an httpd_req_t and provides convenience methods to get qery parameters
