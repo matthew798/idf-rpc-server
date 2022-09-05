@@ -1,5 +1,5 @@
 # HTTP RPC server for IDF
-This is a simple HTTP RPC server that works in espressif's IDF (esp8266/esp32). It uses the esp_http_server under the hood and provides 3 ways to interact with the server:
+This is a simple HTTP RPC server that works in espressif's IDF (esp8266/esp32). It uses the esp_http_server under the hood.
 
 ## Methods and Structs
 ```c
