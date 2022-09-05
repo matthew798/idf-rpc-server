@@ -27,7 +27,7 @@ The `rpc_set_handler_t` type is used when registering a `setter` i.e. a callback
 
 ```c
 esp_err_t RpcServer::RegisterHandler(const char *uri, httpd_method_t method, rpc_handler_t handler)
-```c
+```
 This method is used to register a callback for a general function i.e. any function with any arguments.
 ```c
 template <typename T>
